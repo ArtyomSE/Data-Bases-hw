@@ -244,3 +244,4 @@ entity "Admission" {
 
 @enduml
 ```
+![3 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/556e7fe3-1ac4-4a5d-a349-70103639c809)
