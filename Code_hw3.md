@@ -86,12 +86,12 @@ entity "City" {
 }
 
 entity "Country" {
-  * CountryName
+  * CountryName: string
 }
 
 @enduml
 ```
-![2 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/4106b6c7-f219-47f5-a642-107b443129ae)
+![2 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/ca3cf22d-4c4d-4b1f-b7d5-c07b1dcb482e)
 
 #### в)
 ```
