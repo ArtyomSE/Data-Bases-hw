@@ -113,15 +113,28 @@ man }|--|| man: отец
 ```
 @startuml
 
-entity "Сущность" as entity {}
+entity "Сущность" as entity {
+  * Имя
+}
 
-entity "Связь" as relationship {}
+entity "Атрибут сущности" as entity_attribute {
+  * Имя
+  * Ключ
+}
 
-entity "Атрибут" as attribute {}
+entity "Связь" as relationship {
+  * Тип
+}
 
-entity ||--|{ attribute: обладает
+entity "Атрибут связи" as relationship_attribute {
+  * Имя
+}
 
-entity ||--|{ relationship: имеет
+entity ||--|{ entity_attribute: обладает
+
+entity }|--|{ relationship: имеет
+
+relationship ||--|| relationship_attribute: называется
 
 @enduml
 ```
