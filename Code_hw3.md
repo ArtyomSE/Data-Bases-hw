@@ -1,4 +1,4 @@
-# Код для построения реляционных моделей:
+# Построение реляционных моделей:
 ### Задача №1
 **Вопрос**:
 Почему любое отношение в реляционной схеме имеет по крайней мере один ключ?
@@ -56,6 +56,8 @@ entity "Has Category" as has_category {
 
 @enduml
 ```
+![2 1](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/1f65b9bd-07f2-489c-9eb4-fc684c798f7f)
+
 #### б)
 ```
 @startuml
@@ -88,6 +90,7 @@ entity "Country" {}
 
 @enduml
 ```
+![2 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/8bfe1f8a-cc14-41df-81f9-ba36c12b9d3c)
 
 #### в)
 ```
@@ -103,6 +106,7 @@ entity Game {
 
 @enduml
 ```
+![2 3](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/56ee8507-b8cc-411e-be14-2711abf3d3fe)
 
 #### г)
 ```
@@ -115,6 +119,7 @@ entity "Person" {
   * FatherID: integer
 }
 ```
+![2 4](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/6e535048-88fc-4518-9608-3bf8ca17f4b1)
 
 #### д)
 ```
@@ -151,6 +156,7 @@ entity "Connected to" {
 
 @enduml
 ```
+![2 5](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/341fcea1-2a82-4007-ac99-fbf4f5bd55c7)
 
 ### Задача №3
 
@@ -186,6 +192,7 @@ entity "Connected" {
 
 @enduml
 ```
+![3 1](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/932bcb36-1830-4868-9a3d-d0e060209701)
 
 #### б)
 ```
