@@ -85,11 +85,13 @@ entity "City" {
   * CountryName: string
 }
 
-entity "Country" {}
+entity "Country" {
+  * CountryName
+}
 
 @enduml
 ```
-![2 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/8bfe1f8a-cc14-41df-81f9-ba36c12b9d3c)
+![2 2](https://github.com/ArtyomSE/Data-Bases-hw/assets/99038798/4106b6c7-f219-47f5-a642-107b443129ae)
 
 #### в)
 ```
