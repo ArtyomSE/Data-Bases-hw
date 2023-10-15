@@ -41,7 +41,8 @@ entity "Читатель" as reader {
   Даты возврата книг
 }
 
-book ||--|{ category: имеет
+category ||--|{ category: подчиняет
+book }|--|{ category: имеет
 book ||--|{ copy: представлена в
 reader ||--|{ copy: берёт
 publishing_house ||--|{ book: издаёт
