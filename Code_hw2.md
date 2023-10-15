@@ -123,7 +123,7 @@ entity "Атрибут сущности" as entity_attribute {
 }
 
 entity "Связь" as relationship {
-  * Тип
+  * Имя
 }
 
 entity "Атрибут связи" as relationship_attribute {
