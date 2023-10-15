@@ -97,14 +97,14 @@ referee ||--|| team2: судит
 ```
 @startuml
 
-entity "Человек" as man {}
+entity "Женщина" as woman {}
 
-entity "Мать" as mother {}
+entity "Мужчина" as man {}
 
-entity "Отец" as father {}
-
-mother ||--|{ man: имеет
-father ||--|{ man: имеет
+woman }|--|| woman: мать
+woman }|--|| man: отец
+man }|--|| woman: мать
+man }|--|| man: отец
 
 @enduml
 ```
